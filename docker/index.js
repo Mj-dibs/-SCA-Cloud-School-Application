@@ -6,5 +6,5 @@ app.listen(3000, () => {
 });
 
 app.get("/", (req, res, next) => {
-	    res.send("Welcome to SCA Cloud School Application");
+	    res.send("Welcome to SCA Cloud School Application, this is my first assessment");
 });
